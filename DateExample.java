@@ -27,7 +27,7 @@ import java.util.Scanner;
             System.out.println("............................................");
 
             if(!gender.equals("male") && !gender.equals("female") ){
-                System.out.println("กลับไปกรอกใหม่ไอ้เอ๋อ");
+                System.out.println("กลับไปกรอกใหม่");
                 return;
             }
 
@@ -39,4 +39,4 @@ import java.util.Scanner;
                 System.out.println(name + " You can not vote " + age);
             }
 }
-}//n
+}
